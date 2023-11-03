@@ -99,8 +99,6 @@ class BackgroundDownload(Thread):
             self.finished = True
 
 
-
-
 class UI(Gtk.Window):
     def __init__(self):
         Gtk.Window.__init__(self, type=Gtk.WindowType.TOPLEVEL)
